@@ -1,0 +1,35 @@
+<style>
+    .d1{background:LightSkyBlue;}
+    .d2{background:LightSalmon;justify-self: center;}
+    .d3{background:PaleTurquoise;align-self: end;}
+    .d4{background:LightPink;}
+    .d5{background:PaleGreen;grid-column: 2/4;grid-row: 2/4;grid-area: footer;}
+  
+    .container {
+      font-size: 40px;
+      width: 100%;
+      background: LightGray;
+      display: grid;
+      grid-template-columns:100px 100px 100px;
+      grid-template-rows: 50px 50px;
+      grid-column-gap: 20px;
+      grid-row-gap: 5px;
+      grid-template-areas: "header header header" "advert content content" "footer footer footer";;
+    }
+  </style>
+  
+  <div class="container">
+    <div class="d1">1</div>
+    <div class="d2">2</div>
+    <div class="d3">3</div>
+    <div class="d4">4</div>
+    <div class="d5">5</div>
+  </div>
+  <!--units like fr auto and % can be used in grid-templates
+grid-gap is shortcut to gap as row and column in order
+using justify-items in container can align every grid horizontally
+similarly align-items is used for aligning vertically
+grid-area:hstart/vstart/hend/vend; can also be used as 
+grid-template-column:repeat(val,dimensions) can be used to repeat the rows and colums
+grid-template-columns:minmax(val,val)
+repeat also has an auto-fill and auto-fit option -->

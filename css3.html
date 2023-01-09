@@ -1,0 +1,35 @@
+<style>
+    div {
+      height: 40px;
+      width: 70%;
+      background: black;
+      margin: 50px auto;
+      border-radius: 5px;
+    }
+  
+    #rect {
+    animation-name:rainbow;
+    animation-duration:4s;
+    animation-fill-mode:forwards;
+    animation-iteration-count: infinite;
+    }
+    @keyframes rainbow{0%{background-color:blue;}50%{background-color:green;}100%{background-color:yellow;}}
+  
+  
+  
+  </style>
+  <div id="rect"></div>
+  <audio id="meowClip" controls>
+    <source src="https://s3.amazonaws.com/freecodecamp/screen-reader.mp3" type="audio/mpeg">
+  </audio>
+<!--animation-fill-mode:forwards; can be used to continue using the animation
+animation-timing-function is used to control the speed,default is ease which starts slow,speedup in middle.slow in end
+cubic-bezier can also be used
+figure can be used along with figcaption to enclose visual representation
+fielset and legend tag can be used to enclose button
+time along with the datetime attribute can be used to standarize the format of date&time
+accesskey attribute can help to highilight a particular location by shortcut key
+tabindex="integer" attribute can be used to bring focus to a particular content
+@media (max-width: 100px) { /* CSS Rules */ }
+img{max-width:100%;height:auto;} ensures that image keeps it original aspect ratio and never wider than its container
+the height and width can also be set in units of vw and vh v is viewport-->
