@@ -5,7 +5,10 @@
 <form>- tag is used to create an HTML form for user input
       action- attribute indicates where form data should be sent
 <input>- allows you several ways to collect data from a web form,self closing tag
-       type- defines the type of input
+       type- defines the type of input, text/radio
        name- In order for a form's data to be accessed, name attribute is given and assign it a value to represent the data being submitted
        placeholder- provides a text to be inserted in input area
        required- it is added to make sure that data is inputed by the user
+<button>- creates button
+        type- defines the type or use of button
+<label>- used to help associate the text for an input element with the input element itself
