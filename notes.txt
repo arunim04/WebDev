@@ -34,5 +34,11 @@ margin:auto- centers the the element horizontally and vertically
 display:inline-block- elements behave more like inline elements,inline-block elements only take up the width of their content
 max-width- helps in defining the maximum width the content can extend upto
 font-family- changes the font
+font-style- defines the type of font like italics or bold
+height- defines height of the object
+border-color- defines the color for border
+margin- sets the margin
+a:hover{}- sets the properties for link when hovered upon
+a:active{}- sets properties for link when link is active
 
 
