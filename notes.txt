@@ -1,14 +1,38 @@
+<!DOCTYPE html>- This special string is known as a declaration and ensures the browser tries to meet industry-wide specifications
 <figure>- to wrap an image element
 <figcaption>- provides caption to the image
-<em>- emphasis
+<em>- emphasis,italics
 <strong>- displays text in bold
 <form>- tag is used to create an HTML form for user input
       action- attribute indicates where form data should be sent
 <input>- allows you several ways to collect data from a web form,self closing tag
-       type- defines the type of input, text/radio
+       type- defines the type of input, text/radio/checkbox
        name- In order for a form's data to be accessed, name attribute is given and assign it a value to represent the data being submitted
        placeholder- provides a text to be inserted in input area
        required- it is added to make sure that data is inputed by the user
+       id- used to identify specific HTML elements. Each id attribute's value must be unique from all other id values for the entire page.
+       name- To make it so selecting one radio button automatically deselects the other, both buttons must have a name with same value
+       value- the form data for the button is based on its name and value attributes
+       checked- selects a option by default
 <button>- creates button
         type- defines the type or use of button
 <label>- used to help associate the text for an input element with the input element itself
+       for- You can nest the text within a label element and add a for attribute with the same value as the input element's id attribute
+<fieldset>- used to group related inputs and labels together in a web form,block level element
+<legend>- acts as a caption for the content in the fieldset element.
+<link>- used under head to link the css file to the html file <link rel="stylesheet" href="style.css">
+<meta>- defines the data about data,goes inside head tag,charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0"
+<article>- specifies independent, self-contained content
+
+CSS-
+<style>- present insider head tag, used for css 
+text-align- specifies the alignment of text
+background-color- specifies the color in the background
+<div>- used mainly for design layout purposes
+margin:auto- centers the the element horizontally and vertically
+/**/- cooment in css done like this
+display:inline-block- elements behave more like inline elements,inline-block elements only take up the width of their content
+max-width- helps in defining the maximum width the content can extend upto
+font-family- changes the font
+
+
