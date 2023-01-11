@@ -68,6 +68,7 @@ You can select the last element of a specific type using the last-of-type CSS ps
 width:unset- this unsets the width for that particular element
 vertical-align- aligns the text vertically
 To style the submit button, you can use an attribute selector, which selects an element based on the given attribute value,eg-input[type="submit"]
+filter: blur(3px);- it blurs the element
 
 
 
