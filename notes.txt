@@ -30,7 +30,7 @@ text-align- specifies the alignment of text
 background-color- specifies the color in the background
 <div>- used mainly for design layout purposes
 margin:auto- centers the the element horizontally and vertically
-/**/- cooment in css done like this
+/**/- comment in css done like this
 display:inline-block- elements behave more like inline elements,inline-block elements only take up the width of their content
 max-width- helps in defining the maximum width the content can extend upto
 font-family- changes the font
@@ -40,5 +40,20 @@ border-color- defines the color for border
 margin- sets the margin
 a:hover{}- sets the properties for link when hovered upon
 a:active{}- sets properties for link when link is active
+multiple classes can be added by providing spaces between them
+background-color can be set by rgb(a,a,a)
+background-color can be set by hex value #00FF00
+The CSS hsl function accepts 3 values: a number from 0 to 360 for hue, a percentage from 0 to 100 for saturation, and a percentage from 0 to 100 for lightness.
+the hue red is at 0 degrees, green is at 120 degrees, and blue is at 240 degrees.
+Saturation is the intensity of a color from 0%, or gray, to 100% for pure color.
+Lightness is how bright a color appears, from 0%, or complete black, to 100%, complete white, with 50% being neutral.
+linear-gradient(direction,color1,color2)- provides uniform gradient between two colors under background property
+default direction is 180deg
+after color we can add percentage depecting after what length the transistion happens
+opacity- its sets opacity between 0 to 1.0
+rgba(c,c,c,a)- c is color,a is alpha value or opacity
+border-left: width style color; shorthand property
+box-shadow: offsetX offsetY blurRadius spreadRadius color;
+
 
 
