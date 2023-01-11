@@ -5,6 +5,7 @@
 <strong>- displays text in bold
 <form>- tag is used to create an HTML form for user input
       action- attribute indicates where form data should be sent
+      method- specifies how to send form-data to the URL specified in the action attribute,get/post
 <input>- allows you several ways to collect data from a web form,self closing tag
        type- defines the type of input, text/radio/checkbox
        name- In order for a form's data to be accessed, name attribute is given and assign it a value to represent the data being submitted
@@ -14,6 +15,8 @@
        name- To make it so selecting one radio button automatically deselects the other, both buttons must have a name with same value
        value- the form data for the button is based on its name and value attributes
        checked- selects a option by default
+       minlength- specifies the minimum number of characters
+       pattern- define a regular expression that the password must match to be considered valid.eg- [a-z0-5]{8,}
 <button>- creates button
         type- defines the type or use of button
 <label>- used to help associate the text for an input element with the input element itself
@@ -54,6 +57,8 @@ opacity- its sets opacity between 0 to 1.0
 rgba(c,c,c,a)- c is color,a is alpha value or opacity
 border-left: width style color; shorthand property
 box-shadow: offsetX offsetY blurRadius spreadRadius color;
+The vh unit stands for viewport height, and is relative to 1% of the height of the viewport
+The rem unit stands for root em, and is relative to the font size of the html element
 
 
 
