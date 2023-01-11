@@ -17,6 +17,11 @@
        checked- selects a option by default
        minlength- specifies the minimum number of characters
        pattern- define a regular expression that the password must match to be considered valid.eg- [a-z0-5]{8,}
+       min/max- defines the range of numbers when input type is number
+<select>- adds a dropdown
+<textarea>- adds a textarea
+      rows/cols- specifies initial size
+<option>- adds options under the select dropdown       
 <button>- creates button
         type- defines the type or use of button
 <label>- used to help associate the text for an input element with the input element itself
