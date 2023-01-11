@@ -64,6 +64,10 @@ border-left: width style color; shorthand property
 box-shadow: offsetX offsetY blurRadius spreadRadius color;
 The vh unit stands for viewport height, and is relative to 1% of the height of the viewport
 The rem unit stands for root em, and is relative to the font size of the html element
+You can select the last element of a specific type using the last-of-type CSS pseudo-class
+width:unset- this unsets the width for that particular element
+vertical-align- aligns the text vertically
+To style the submit button, you can use an attribute selector, which selects an element based on the given attribute value,eg-input[type="submit"]
 
 
 
