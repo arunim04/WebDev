@@ -31,6 +31,7 @@
 <link>- used under head to link the css file to the html file <link rel="stylesheet" href="style.css">
 <meta>- defines the data about data,goes inside head tag,charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0"
 <article>- specifies independent, self-contained content
+<span>- to modify part of element
 
 CSS-
 <style>- present insider head tag, used for css 
@@ -86,5 +87,7 @@ object-fit:cover;- This will tell the image to fill the img container while main
 gap- CSS shorthand property sets the gaps, also knowns as gutters, between rows and columns
 ::after- pseudo-element creates an element that is the last child of the selected element
       content""
+text-transform- transforms the text
+letter-spacing- provides desired spacing between characters 
       
 
