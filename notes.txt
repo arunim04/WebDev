@@ -89,5 +89,6 @@ gap- CSS shorthand property sets the gaps, also knowns as gutters, between rows 
       content""
 text-transform- transforms the text
 letter-spacing- provides desired spacing between characters 
-      
+:not()- excludes the thing present in divider for that particular element
+text-indent- indents the text      
 
