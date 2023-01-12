@@ -73,6 +73,18 @@ filter: blur(3px);- it blurs the element
 transform:rotate(0.6deg);- helps in rotataing the element
 overflow- sets the overflow property
 box-sizing: border-box;- it includes the padding and border to element's total height and width
-
-
+display: flex;- sets the element side by side in block manner as one single unit
+Flexbox has a main and cross axis. The main axis is defined by the flex-direction property, which has four possible values:
+      row (default): horizontal axis with flex items from left to right
+      row-reverse: horizontal axis with flex items from right to left
+      column: vertical axis with flex items from top to bottom
+      column-reverse: vertical axis with flex items from bottom to top
+flex-wrap- property determines how your flex items behave when the flex container is too small
+justify-content- determines how the items inside a flex container are positioned along the main axis
+align-items- positions the flex content along the cross axis
+object-fit:cover;- This will tell the image to fill the img container while maintaining aspect ratio, resulting in cropping to fit
+gap- CSS shorthand property sets the gaps, also knowns as gutters, between rows and columns
+::after- pseudo-element creates an element that is the last child of the selected element
+      content""
+      
 
