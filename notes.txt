@@ -37,6 +37,7 @@
 <section>- defines a section of the webpage
       role- can be used to indicate the purpose behind an element on the page to assistive technologies
       aria-labelledby- specifies the label corresponding to the role
+<address>- container for contact information for the author of the page
 
 CSS-
 <style>- present insider head tag, used for css 
@@ -99,4 +100,11 @@ text-indent- indents the text
 aspect-ratio- defines the aspect ratio for an element
 nav>ul- way of selecting the list under nav element in css 
 clip- lets you specify a rectangle to clip an absolutely positioned element, property does not work if "overflow:visible"
+text-decoration- used to decorate text
+cursor- defines the type of cursor
+top- specifies the distance from top when an element is fixed
+padding-inline-start- space from its border to its content, at the start in the inline direction
+scroll-behavior- defines how the scroll happens in internal linking 
+@media-  rule is used in media queries to apply different styles for different media types/devices,@media (feature: value) {selector {styles}}
+accesskey- attribute accepts a space-separated list of access keys
 
