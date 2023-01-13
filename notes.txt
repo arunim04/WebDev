@@ -30,8 +30,13 @@
 <legend>- acts as a caption for the content in the fieldset element.
 <link>- used under head to link the css file to the html file <link rel="stylesheet" href="style.css">
 <meta>- defines the data about data,goes inside head tag,charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0"
+      content- defines the content of webpage for SEO
 <article>- specifies independent, self-contained content
 <span>- to modify part of element
+<nav>- to create navigation bar
+<section>- defines a section of the webpage
+      role- can be used to indicate the purpose behind an element on the page to assistive technologies
+      aria-labelledby- specifies the label corresponding to the role
 
 CSS-
 <style>- present insider head tag, used for css 
@@ -90,5 +95,8 @@ gap- CSS shorthand property sets the gaps, also knowns as gutters, between rows 
 text-transform- transforms the text
 letter-spacing- provides desired spacing between characters 
 :not()- excludes the thing present in divider for that particular element
-text-indent- indents the text      
+text-indent- indents the text   
+aspect-ratio- defines the aspect ratio for an element
+nav>ul- way of selecting the list under nav element in css 
+clip- lets you specify a rectangle to clip an absolutely positioned element, property does not work if "overflow:visible"
 
