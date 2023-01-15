@@ -38,6 +38,15 @@
       role- can be used to indicate the purpose behind an element on the page to assistive technologies
       aria-labelledby- specifies the label corresponding to the role
 <address>- container for contact information for the author of the page
+<div>- helps in styling the page
+      aria-hidden="true"- hides the element from screen readers
+<table>- creates table
+<caption>- to describe what the table is about
+<thead>- defines the head of the table
+<tbody>- defines the body of the table
+<tr>- table row
+<th>- header cell
+<td>- table cell
 
 CSS-
 <style>- present insider head tag, used for css 
@@ -100,6 +109,7 @@ text-indent- indents the text
 aspect-ratio- defines the aspect ratio for an element
 nav>ul- way of selecting the list under nav element in css 
 clip- lets you specify a rectangle to clip an absolutely positioned element, property does not work if "overflow:visible"
+clip-path- determines the shape the clip property should take
 text-decoration- used to decorate text
 cursor- defines the type of cursor
 top- specifies the distance from top when an element is fixed
@@ -107,4 +117,6 @@ padding-inline-start- space from its border to its content, at the start in the 
 scroll-behavior- defines how the scroll happens in internal linking 
 @media-  rule is used in media queries to apply different styles for different media types/devices,@media (feature: value) {selector {styles}}
 accesskey- attribute accepts a space-separated list of access keys
+span[class~="sr-only"]- selector will select any span element whose class includes sr-only
+white-space- specifies how white-space inside an element is handled
 
