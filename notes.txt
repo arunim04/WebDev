@@ -119,4 +119,8 @@ scroll-behavior- defines how the scroll happens in internal linking
 accesskey- attribute accepts a space-separated list of access keys
 span[class~="sr-only"]- selector will select any span element whose class includes sr-only
 white-space- specifies how white-space inside an element is handled
+calc()- function is a CSS function that allows you to calculate a value based on other values
+span:not(.sr-only)- targets all elements except .sr-only
+!important- keyword marks that certain properties are not overriden
+border-collapse:collapse;- allow cell borders to collapse into a single border, instead of a border around each cell
 
