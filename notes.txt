@@ -89,6 +89,7 @@ filter: blur(3px);- it blurs the element
 transform:rotate(0.6deg);- helps in rotataing the element
 overflow- sets the overflow property
 box-sizing: border-box;- it includes the padding and border to element's total height and width
+box-sizing:inherit;- it helps all the elements to inherit the style of parent
 display: flex;- sets the element side by side in block manner as one single unit
 Flexbox has a main and cross axis. The main axis is defined by the flex-direction property, which has four possible values:
       row (default): horizontal axis with flex items from left to right
@@ -123,4 +124,5 @@ calc()- function is a CSS function that allows you to calculate a value based on
 span:not(.sr-only)- targets all elements except .sr-only
 !important- keyword marks that certain properties are not overriden
 border-collapse:collapse;- allow cell borders to collapse into a single border, instead of a border around each cell
+float- specifies whether an element should float to the left, right, or not at all, Absolutely positioned elements ignore the float
 
