@@ -72,6 +72,7 @@ the hue red is at 0 degrees, green is at 120 degrees, and blue is at 240 degrees
 Saturation is the intensity of a color from 0%, or gray, to 100% for pure color.
 Lightness is how bright a color appears, from 0%, or complete black, to 100%, complete white, with 50% being neutral.
 linear-gradient(direction,color1,color2)- provides uniform gradient between two colors under background property
+repeating-linear-gradient- repeats the pattern until it reaches to the bottom of the element
 default direction is 180deg
 after color we can add percentage depecting after what length the transistion happens
 opacity- its sets opacity between 0 to 1.0
@@ -125,4 +126,5 @@ span:not(.sr-only)- targets all elements except .sr-only
 !important- keyword marks that certain properties are not overriden
 border-collapse:collapse;- allow cell borders to collapse into a single border, instead of a border around each cell
 float- specifies whether an element should float to the left, right, or not at all, Absolutely positioned elements ignore the float
-
+--variable-name:- format for declaration of variables
+var(--variable-name)- it is used like this
