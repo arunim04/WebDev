@@ -128,3 +128,5 @@ border-collapse:collapse;- allow cell borders to collapse into a single border, 
 float- specifies whether an element should float to the left, right, or not at all, Absolutely positioned elements ignore the float
 --variable-name:- format for declaration of variables
 var(--variable-name)- it is used like this
+radial-gradient- sets the gradient in circular manner
+      circle closest-corner at 15% 15%- this controls the direction of the circle form
