@@ -142,3 +142,14 @@ display:grid- offers a two-dimensional grid-based layout, allowing you to center
       row-gap- adds gap between rows
       grid-column- shorthand for grid-column-start and grid-column-end, the grid-column property tells which grid line to start and end at
       repeat()- repeats the property certain no. of times,grid-template-columns property to repeat(20, 200px) would create 20 columns each 200px wide
+      grid-auto-flow:column- uses an auto-placement algorithm to adjust the grid layout, Setting it to column will create new columns for content as needed
+      grid-auto-column- defines the the size of auto crated columns
+      align-items- will align child elements along the column axis
+      justify-items- will align child elements along the row axis
+      place-items- If two values are provided, the first value is used for the align-items property and the second value is used for the justify-items
+::first-letter- targets the first letter in the text content
+list-style-type:none;- removes any style in ul or ol
+
+
+
+
