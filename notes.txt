@@ -47,7 +47,13 @@
 <tr>- table row
 <th>- header cell
 <td>- table cell
-
+<img>- tag for inserting image
+      loading="lazy"- loads the when necessary.benificial for slow internet connection
+<a>- adds hyperlink
+      rel="noreferrer"- omits information about the address or URL of a page that a user might be visiting from the HTTP request
+<blockquote>- specifies a section that is quoted from another source
+      cite- address from where the quote is taken 
+<aside>- defines some content aside from the content it is placed in
 CSS-
 <style>- present insider head tag, used for css 
 text-align- specifies the alignment of text
@@ -130,3 +136,9 @@ float- specifies whether an element should float to the left, right, or not at a
 var(--variable-name)- it is used like this
 radial-gradient- sets the gradient in circular manner
       circle closest-corner at 15% 15%- this controls the direction of the circle form
+display:grid- offers a two-dimensional grid-based layout, allowing you to center items horizontally and vertically
+      grid-template-columns- defines the sizes of columns to be created 
+      minmax()- takes two arguments, the first being the minimum value and the second being the maximum.
+      row-gap- adds gap between rows
+      grid-column- shorthand for grid-column-start and grid-column-end, the grid-column property tells which grid line to start and end at
+      repeat()- repeats the property certain no. of times,grid-template-columns property to repeat(20, 200px) would create 20 columns each 200px wide
