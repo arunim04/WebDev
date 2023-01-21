@@ -150,7 +150,13 @@ display:grid- offers a two-dimensional grid-based layout, allowing you to center
 ::first-letter- targets the first letter in the text content
 list-style-type:none;- removes any style in ul or ol
 transform-origin- set the point around which a CSS transformation is applied
-
+@keyframes- used to define the flow of a CSS animation,create selectors for specific points in the animation sequence, such as 0% or 25%, or use from and to to define the start and end of the sequence
+animation-name- name associated with the keyframes is provided
+animation-duration- provides the duration for which animation will run
+animation-iteration-count- ets how many times your animation should repeat
+animation-timing-function- sets how the animation should progress over time
+      ease-in-out- animation to start and end at a slower pace, but move more quickly in the middle of the cycle
+animation property of the .cabin rule to cabins 10s linear infinite. This will set the animation-name, animation-duration, animation-timing-function, and animation-iteration-count properties in that order
 
 
 
