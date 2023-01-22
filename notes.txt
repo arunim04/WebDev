@@ -157,6 +157,6 @@ animation-iteration-count- ets how many times your animation should repeat
 animation-timing-function- sets how the animation should progress over time
       ease-in-out- animation to start and end at a slower pace, but move more quickly in the middle of the cycle
 animation property of the .cabin rule to cabins 10s linear infinite. This will set the animation-name, animation-duration, animation-timing-function, and animation-iteration-count properties in that order
-
+transition-duration- defines the time required to transform the element
 
 
