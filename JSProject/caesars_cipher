@@ -1,0 +1,21 @@
+function rot13(str) {
+    var resp = [];
+    var code = str.split('');
+    
+    for(var i=0;i<code.length;i++){
+        var index = code[i].charCodeAt();
+        
+        if(index>77){
+                resp.push(String.fromCharCode(index-13));
+        }
+        else if(index<=77&&index>=65){
+            resp.push(String.fromCharCode(index+13));
+        }
+        else if(index<65){
+            resp.push(String.fromCharCode(index));
+        }
+    }      
+    return resp.join('');
+}
+
+rot13("AERR PBQR PNZC");
