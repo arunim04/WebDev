@@ -159,4 +159,16 @@ animation-timing-function- sets how the animation should progress over time
 animation property of the .cabin rule to cabins 10s linear infinite. This will set the animation-name, animation-duration, animation-timing-function, and animation-iteration-count properties in that order
 transition-duration- defines the time required to transform the element
 
+Bootstrap:
 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+class="img-responsive"- image could be exactly the width of our phone's screen/ image should perfectly fit the width of your page.
+class="text-center"- centers the given text
+class="text-primary"- gives the text blue color
+<button class="btn btn-default">- basic design for button
+      btn-block- your button will stretch to fill your page's entire horizontal space and any elements following it will flow onto a "new line" below the block.
+      btn-primary- blue color button/highlights
+      btn-info- used to call attention to optional actions that the user can take.
+      btn-danger- button color you'll use to notify users that the button performs a destructive action
+<div class="col-xs-4">- specifying how many columns wide the element should be. xs is extra small,md is medium
