@@ -163,12 +163,23 @@ Bootstrap:
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
     integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+
+for importing awesome font:
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" 
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
 class="img-responsive"- image could be exactly the width of our phone's screen/ image should perfectly fit the width of your page.
 class="text-center"- centers the given text
 class="text-primary"- gives the text blue color
+class="tetx-danger"- gives the text red color
 <button class="btn btn-default">- basic design for button
       btn-block- your button will stretch to fill your page's entire horizontal space and any elements following it will flow onto a "new line" below the block.
       btn-primary- blue color button/highlights
       btn-info- used to call attention to optional actions that the user can take.
       btn-danger- button color you'll use to notify users that the button performs a destructive action
 <div class="col-xs-4">- specifying how many columns wide the element should be. xs is extra small,md is medium
+class="fas fa-thumbs-up"- adds thumbs up
+class="fas fa-trash"- adds trash bin 
+class="fas fa-info-circle- adds info symbol
+class="fa fa-paper-plane"- adds plane symbol 
+<div class="well">- creates a box
