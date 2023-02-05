@@ -183,3 +183,22 @@ class="fas fa-trash"- adds trash bin
 class="fas fa-info-circle- adds info symbol
 class="fa fa-paper-plane"- adds plane symbol 
 <div class="well">- creates a box
+
+JS:
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+$(document).ready(function() {});- added inside script element to render webpage after html elements
+$("tagname").addClass("animated bounce");- bounce the element once
+      "animated shake"- shakes the element once
+      "animated fadeOut"- fades out the element
+$("button").prop("disabled", true);- disables the buttons
+.addClass()- function, which allows you to add classes to elements
+.removeClass()- function, which deletes the classes to elements
+.prop()- lets set the properties of element
+.css()- function used to target css of a element
+.html()- lets you add HTML tags and text within an element
+.remove()- remove an HTML element entirely
+.appendTo()- allows you to select HTML elements and append them to another element.
+.clone()- makes a copy of an element.
+.parent()- targets the parent of the selected element
+.children()- targe the child of the selected element
+$(".target:nth-child(3)").addClass("animated bounce");- CSS selector allows you to select all the nth elements with the target class or element type.
