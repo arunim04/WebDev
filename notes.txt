@@ -236,4 +236,6 @@ classList.toggle(")- adds the particular class on toggling
       when boolaean is true event capturing takes place otherwise even bubbling takes place
       e.stopPropagation()- stops the propagation 
       e.preventDefault()- prevents the webpage from directing to another page
-      e.target- represents the particular button that is being clicked   
+      e.target- represents the particular button that is being clicked 
+window.setInterval(function,duration(ms))- runs the function in every given duration
+window.clearInterval(function)- stops running the function over given interval 
