@@ -24,6 +24,7 @@
 <option>- adds options under the select dropdown       
 <button>- creates button
         type- defines the type or use of button
+        onclick="alert('')"- displays the particular alert message when clicked on the button, it is a event
 <label>- used to help associate the text for an input element with the input element itself
        for- You can nest the text within a label element and add a for attribute with the same value as the input element's id attribute
 <fieldset>- used to group related inputs and labels together in a web form,block level element
@@ -184,7 +185,7 @@ class="fas fa-info-circle- adds info symbol
 class="fa fa-paper-plane"- adds plane symbol 
 <div class="well">- creates a box
 
-JS:
+jQuery:
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 $(document).ready(function() {});- added inside script element to render webpage after html elements
 $("tagname").addClass("animated bounce");- bounce the element once
@@ -202,3 +203,34 @@ $("button").prop("disabled", true);- disables the buttons
 .parent()- targets the parent of the selected element
 .children()- targe the child of the selected element
 $(".target:nth-child(3)").addClass("animated bounce");- CSS selector allows you to select all the nth elements with the target class or element type.
+
+JS-DOM:
+
+all the styling properties are written in camelCase
+document.querySelector()- selects and returns the first element that matches a CSS selector.
+document.createElement()- creates the particular element and can be appended under parent using .append() 
+.style.color=""- changes the color of the selected query 
+.style.fontSize=""- changes the font 
+.innerText- displays/change the text present in the selected query in the console
+.textContent- displays the text as present in html file with spaces and indentation
+.innerHtml- shows the text along with tags present in it
+.setAttribute(attribute,name)- sets the attributes for selected element
+.removeAttribute(attribute)- removes the attribute of the selected element
+.getAttribute(attribute)- gives the propery of selected attribute in console
+.classList.add("")- adds the class to the selected element
+.classList.remove("")- does the opposite of the above
+.claassList.contains(class)- returns boolean value
+.remove()- removes the selected element 
+.parentElement/.parentNode- returns the parent elenment of the selected elemented
+.childNodes- returns the child elements of the selcted element
+.firstChild/.lastChild- returns the child element accordingly     
+document.documentElement- returns the complete html code
+.previousSibling/.nextSibling- returns the element accordingly
+.addEventListner("type of action",function,boolean)- creates an event for the selected element  click/mouseover
+      eg- const bt1=document.querySelector('.bt1');
+          function alertbtn(){alert('i love js');}
+          bt1.addEventListner("click",alertbtn);
+      when boolaean is true event capturing takes place otherwise even bubbling takes place
+      e.stopPropagation()- stops the propagation 
+      e.preventDefault()- prevents the webpage from directing to another page
+      e.target- represents the particular button that is being clicked   
