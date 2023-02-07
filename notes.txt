@@ -227,6 +227,8 @@ document.createElement()- creates the particular element and can be appended und
 .firstChild/.lastChild- returns the child element accordingly     
 document.documentElement- returns the complete html code
 .previousSibling/.nextSibling- returns the element accordingly
+.document.getElementsByClassName('')- gives classes under selected parent
+classList.toggle(")- adds the particular class on toggling
 .addEventListner("type of action",function,boolean)- creates an event for the selected element  click/mouseover
       eg- const bt1=document.querySelector('.bt1');
           function alertbtn(){alert('i love js');}
