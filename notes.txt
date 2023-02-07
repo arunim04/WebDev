@@ -1,4 +1,5 @@
 <!DOCTYPE html>- This special string is known as a declaration and ensures the browser tries to meet industry-wide specifications
+&times represents x sign.
 <figure>- to wrap an image element
 <figcaption>- provides caption to the image
 <em>- emphasis,italics
